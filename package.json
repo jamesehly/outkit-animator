@@ -1,13 +1,12 @@
 {
     "name": "outkit-animator",
     "version": "1.0.0",
-    "description": "A simple animator class with timing functions",
+    "description": "A simple animator class with timing functions and promises",
     "main": "index.js",
     "scripts": {
         "test": "karma start",
         "prerelease": "npm run build",
         "release": "git add . && standard-version -a",
-        //"postrelease": "git push --follow-tags origin master && npm publish",
         "build": "rimraf ./dist && webpack && uglifyjs ./dist/outkit-animator.js -c -m -o ./dist/outkit-animator.min.js --source-map ./dist/outkit-animator.min.js.map --comments /Copyright/",
         "docs": "typedoc --out docs/api/ src/js/"
     },
