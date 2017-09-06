@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "dist",
+        "sourceMap": true,  
+        "removeComments": true,   
+        "declaration": true, 
+        "experimentalDecorators": true,
+        //"noImplicitAny": true,
+        "lib": [
+            "es2015",
+            "dom",
+            "es2017.object",
+            "es2015.promise"
+        ],
+        "types" : [
+            "jasmine"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
