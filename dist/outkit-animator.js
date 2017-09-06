@@ -1,4 +1,4 @@
-/*! Outkit Animator v1.0.0 - Copyright 2017 James Ehly - MIT License */
+/*! Outkit Animator v1.0.2 - Copyright 2017 James Ehly - MIT License */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
