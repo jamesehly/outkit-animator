@@ -179,3 +179,5 @@ export class OutkitAnimator implements IAnimator {
         }
     }
 }
+
+export * from './common';
