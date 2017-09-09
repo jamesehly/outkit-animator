@@ -22,3 +22,4 @@ export declare class OutkitAnimator implements IAnimator {
     private makeEaseOut(timing);
     private makeEaseInOut(timing);
 }
+export * from './common';
